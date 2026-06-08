@@ -1,0 +1,3 @@
+﻿display_name: Justizadressen SQLite
+short_description: Justizadressen per CDP abrufen und als SQLite-Datenbank erzeugen.
+default_prompt: Erzeuge oder prüfe Justizadressen-JSON und die SQLite-Datenbank mit den Skripten und Konventionen dieses Skills.

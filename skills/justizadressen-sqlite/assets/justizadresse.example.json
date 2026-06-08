@@ -1,0 +1,23 @@
+﻿{
+  "xjustiz-id": "Y6010",
+  "lopsta-id": "Xlopsta01-2345-6789-lops-ta0123456789X",
+  "name": "Bundesarbeitsgericht",
+  "zusatz": "",
+  "hausanschrift": {
+    "strasse": "Hugo-Preuß-Platz 1",
+    "plz": "99084",
+    "ort": "Erfurt"
+  },
+  "postanschrift": {
+    "postfach": "",
+    "plz": "99113",
+    "ort": "Erfurt"
+  },
+  "kontakt": {
+    "telefon": "0361 2636-0",
+    "fax": "0361 2636-2000",
+    "email": "bag@bundesarbeitsgericht.de",
+    "www": "https://www.bundesarbeitsgericht.de"
+  },
+  "bundesland": "BUND"
+}

@@ -1,0 +1,21 @@
+﻿{
+  "name": "lopsta-justizadressen2sqlite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CDP-Grabber und SQLite-Erzeugung fuer deutsche Justizadressen im Lopsta-Format.",
+  "type": "commonjs",
+  "scripts": {
+    "grab": "node scripts/cdp__justizadressen__grabber.js",
+    "sqlite": "node scripts/sqlite__justizadressen__erstellen.js",
+    "all": "node scripts/run-all.js",
+    "build": "npm run sqlite",
+    "sqlite:browser": "tools\\sqlitebrowser\\SQLiteDatabaseBrowserPortable_3.13.1.paf.exe"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.10.0",
+    "chrome-remote-interface": "^0.33.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
